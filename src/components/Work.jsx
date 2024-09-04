@@ -8,43 +8,43 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import { FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
 import { SiFirebase, SiTailwindcss } from "react-icons/si";
 import { BiCodeBlock } from "react-icons/bi";
-const AnimatedPinInformation = [
-  {
-    title: "Cryptopia",
-    descriptionCard: "A crypto website",
-    img: cryptopia,
-    link: "https://cryptopia.boriskalev.com/",
-    description:
-      "A crypto website where you can search and track different crypto coins with a focus on design.",
-    languages: ["React", "Tailwind", "API"],
-  },
-  {
-    title: "Surfago",
-    descriptionCard:
-      "Browse equipment & accessories related to Surf and lifestyle",
-    img: surfago,
-    link: "https://surfago.boriskalev.com/",
-    description:
-      "A website where you can find and browse different surfing equipment, gear, and accessories. It offers a variety of lifestyle products that are focused on the surf community.",
-    languages: ["React", "Node.js", "Tailwind"],
-  },
-  {
-    title: "Netflix",
-    descriptionCard: "A Netflix clone to browse movies",
-    img: Netflix,
-    link: "https://netflix-react-copy.web.app/",
-    description:
-      "A Netflix clone where users can browse different movies, add them to their must-watch list, and discover more features in a similar Netflix-like interface.",
-    languages: ["React", "Firebase", "API", "Tailwind"],
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export default function AnimatedPin() {
+  const { t } = useTranslation();
+
+  const AnimatedPinInformation = [
+    {
+      title: "Cryptopia",
+      descriptionCard: `${t("cryptopia-card")}`,
+      img: cryptopia,
+      link: "https://cryptopia.boriskalev.com/",
+      description: `${t("cryptopia-desc")}`,
+      languages: ["React", "Tailwind", "API"],
+    },
+    {
+      title: "Surfago",
+      descriptionCard: `${t("surfago-card")}`,
+      img: surfago,
+      link: "https://surfago.boriskalev.com/",
+      description: `${t("surfago-desc")}`,
+      languages: ["React", "Node.js", "Tailwind"],
+    },
+    {
+      title: "Netflix",
+      descriptionCard: `${t("netflix-card")}`,
+      img: Netflix,
+      link: "https://netflix-react-copy.web.app/",
+      description: `${t("netflix-desc")}`,
+      languages: ["React", "Firebase", "API", "Tailwind"],
+    },
+  ];
+
   return (
     <>
       <div className="-mt-20" />
       <Title
-        text={"Projects"}
+        text={t("projects")}
         className="flex flex-col items-center justify-center mt-10"
       />
       <div className="w-full flex flex-col gap-8 items-center justify-center mt-10">
@@ -114,7 +114,7 @@ export default function AnimatedPin() {
               </div>
               <div className="flex items-center mx-auto gap-x-1 mt-8">
                 <a href={card.link} target="_blank" rel="noopener noreferrer">
-                  Live Demo
+                  {t("liveDemo")}
                 </a>
                 <BsBoxArrowUpRight />
                 <div className="flex items-center ml-5 gap-x-1 cursor-pointer">

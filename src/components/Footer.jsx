@@ -1,6 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className=" text-slate-100 py-8 mt-20">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 md:px-8">
@@ -25,7 +27,7 @@ const Footer = () => {
         {/* Right Section: Copyright */}
         <div className="flex flex-col items-center mt-6 md:mt-0">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} Boris Kalev. All Rights Reserved.
+            © {new Date().getFullYear()} {t("rights")}
           </p>
         </div>
       </div>

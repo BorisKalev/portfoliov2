@@ -1,21 +1,16 @@
 {
-    "greeting": "Bonjour !",
+    "location": "Montréal, QC",
     "intro": "Un développeur logiciel inspiré, spécialisé dans la création, et parfois la conception, d'expériences numériques exceptionnelles.",
-    "title-projects": "Projets",
-    "netflix-explanation": "Copie de Netflix créée à l'aide de React et Tailwind, utilisant une API et Firebase, permettant aux utilisateurs de se connecter.",
-    "title-projects2": "Autres Projets",
-    "Hosting-Expl":"J'ai créé le design pour un site potentiel de hosting en utilisant React et Tailwind.",
-    "recipe-title": "App de recette",
-    "recipe-desc": "Une application de recettes dans laquelle vous avez accès à des milliers de recettes à l'aide d'une API, avec différents types de cuisines, des hashtags et une barre de recherche.",
-    "wordle-desc": "Le jeu populaire Wordle avec un clavier à l'écran.",
-    "gym-title": "Application de Gym",
-    "gym-desc": "Une application de gym avec de belles animations et un bon design.",
-    "skills-title": "Compétences",
-    "development-title": "DÉVELOPPEMENT",
-    "tools-and-knowledge-title": "OUTILS & CONNAISSANCES",
-    "command-line": "Ligne de Commande",
-    "usability": "Utilisabilité",
-    "debugging": "Débogage",
-    "createBy": "© Créé par Boris Kalev"
-  }
+    "button": "Écrivez moi",
+    "projects": "Projets",
+    "cryptopia-card": "Un site de crypto",
+    "cryptopia-desc": "Un site Web de cryptomonnaies sur lequel vous pouvez rechercher et suivre différentes pièces cryptographiques en mettant l'accent sur le design.",
+    "surfago-card": "Parcourir les équipements et accessoires liés au surf et au style de vie",
+    "surfago-desc": "Un site Web où vous pouvez trouver et parcourir différents équipements et accessoires de surf. Il propose une variété de produits de style de vie axés sur la communauté du surf.",
+    "netflix-card": "Un clone de Netflix pour parcourir les films",
+    "netflix-desc": "Un clone de Netflix où les utilisateurs peuvent parcourir différents films, les ajouter à leur liste à regarder absolument et découvrir plus de fonctionnalités dans une interface similaire à celle de Netflix.",
+    "liveDemo": "Démo en direct",
+    "skills": "Compétences",
+    "rights": "Boris Kalev. Tous droits réservés."
+   }
   

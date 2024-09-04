@@ -13,8 +13,9 @@ import {
   SiHtml5,
   SiTypescript,
 } from "react-icons/si";
-
+import { useTranslation } from "react-i18next";
 const Skills = () => {
+  const { t } = useTranslation();
   const skills = [
     { text: "React", Icon: SiReact, color: "#57c3dd" },
     { text: "Node.js", Icon: SiNodedotjs, color: "#80bd00" },
@@ -30,7 +31,7 @@ const Skills = () => {
   return (
     <div className="mt-32 max-w-5xl mx-auto px-8">
       <Title
-        text={"Skills"}
+        text={t("skills")}
         className="flex flex-col items-center justify-center "
       />
 
