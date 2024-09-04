@@ -21,6 +21,7 @@ export default function AnimatedPin() {
       link: "https://cryptopia.boriskalev.com/",
       description: `${t("cryptopia-desc")}`,
       languages: ["React", "Tailwind", "API"],
+      githubLink: "https://github.com/BorisKalev/cryptotopia",
     },
     {
       title: "Surfago",
@@ -29,6 +30,7 @@ export default function AnimatedPin() {
       link: "https://surfago.boriskalev.com/",
       description: `${t("surfago-desc")}`,
       languages: ["React", "Node.js", "Tailwind"],
+      githubLink: "https://github.com/BorisKalev/surfago-app",
     },
     {
       title: "Netflix",
@@ -37,6 +39,7 @@ export default function AnimatedPin() {
       link: "https://netflix-react-copy.web.app/",
       description: `${t("netflix-desc")}`,
       languages: ["React", "Firebase", "API", "Tailwind"],
+      githubLink: "https://github.com/BorisKalev/Netflix",
     },
   ];
 
@@ -117,10 +120,15 @@ export default function AnimatedPin() {
                   {t("liveDemo")}
                 </a>
                 <BsBoxArrowUpRight />
-                <div className="flex items-center ml-5 gap-x-1 cursor-pointer">
+                <a
+                  href={card.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center ml-5 gap-x-1 cursor-pointer"
+                >
                   <p>Code</p>
                   <FaGithub />
-                </div>
+                </a>
               </div>
             </div>
           </div>
