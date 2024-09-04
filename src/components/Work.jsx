@@ -45,7 +45,7 @@ export default function AnimatedPin() {
       <div className="-mt-20" />
       <Title
         text={"Projects"}
-        className="flex flex-col items-center justify-center rotate-6"
+        className="flex flex-col items-center justify-center mt-10"
       />
       <div className="w-full flex flex-col gap-8 items-center justify-center mt-10">
         {AnimatedPinInformation.map((card, idx) => (
@@ -117,7 +117,7 @@ export default function AnimatedPin() {
                   Live Demo
                 </a>
                 <BsBoxArrowUpRight />
-                <div className="flex items-center ml-2 gap-x-1 cursor-pointer">
+                <div className="flex items-center ml-5 gap-x-1 cursor-pointer">
                   <p>Code</p>
                   <FaGithub />
                 </div>

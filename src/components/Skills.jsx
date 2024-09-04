@@ -31,7 +31,7 @@ const Skills = () => {
     <div className="mt-32 max-w-5xl mx-auto px-8">
       <Title
         text={"Skills"}
-        className="flex flex-col items-center justify-center -rotate-6"
+        className="flex flex-col items-center justify-center "
       />
 
       <HoverEffect items={skills} />
