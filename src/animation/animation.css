@@ -1,0 +1,24 @@
+.text-underline-bg {
+  position: relative;
+  display: inline-block; /* Ensures the pseudo-element respects the text size */
+  overflow: hidden; /* Hides any overflow from the pseudo-element */
+}
+
+.text-underline-bg::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0; /* Start from the bottom */
+  height: 100%; /* Full height of the text */
+  width: 100%; /* Full width of the text */
+  background-color: #26C6DA; /* Teal-400 color */
+  transform: scaleY(0); /* Start with no height */
+  transform-origin: bottom; /* Start expanding from the bottom */
+  transition: transform 0.4s ease; /* Smooth transition */
+  z-index: -1; /* Ensure it’s behind the text */
+}
+
+.text-underline-bg:hover::before {
+  transform: scaleY(1); /* Expand to full height on hover */
+}
+

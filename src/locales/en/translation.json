@@ -1,0 +1,21 @@
+{
+    "greeting": "Hello!",
+    "intro": "I am an aspiring software developer specializing in building and occasionally designing exceptional digital experiences.",
+    "title-projects": "Projects",
+    "netflix-explanation": "Netflix clone built with React and Tailwind. It uses an API to fetch movie data and Firebase as the database so users can log in.",
+    "title-projects2": "Other Projects",
+    "Hosting-Expl":"Designed a potential hosting website using React and Tailwind.",
+    "recipe-title": "Recipe App",
+    "recipe-desc": "A recipe app where you can access thousands of recipes using an API, with different types of cuisines, hashtags, and a search bar.",
+    "wordle-desc": "The popular game Wordle with an on-screen keyboard.",
+    "gym-title": "Gym App",
+    "gym-desc": "A gym app with great animations and a really nice design.",
+    "skills-title": "Skills",
+    "development-title": "DEVELOPMENT",
+    "tools-and-knowledge-title": "TOOLS & KNOWLEDGE",
+    "command-line": "Command Line",
+    "usability": "Usability",
+    "debugging": "debugging",
+    "createBy": "© Created by Boris Kalev"
+  }
+  

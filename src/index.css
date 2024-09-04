@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+  @font-face {
+      font-family: Apercu;
+      src: url(../fonts/apercu/Apercu-Light.eot);
+      src: url(../fonts/apercu/Apercu-Light.eot?#iefix) format("embedded-opentype"),url(../fonts/apercu/Apercu-Light.woff2) format("woff2"),url(../fonts/apercu/Apercu-Light.woff) format("woff"),url(../fonts/apercu/Apercu-Light.ttf) format("truetype"),url(../fonts/apercu/Apercu-Light.svg#Apercu-Light) format("svg");
+      font-weight: 300;
+      font-style: normal
+  }
+  
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+    background: rgb(2 6 23);
+    overflow-x: hidden;
+  }
