@@ -48,7 +48,7 @@ export default function AnimatedPin() {
       <div className="-mt-20" />
       <Title
         text={t("projects")}
-        className="flex flex-col items-center justify-center mt-10"
+        className="flex flex-col items-center justify-center mt-8"
       />
       <div className="w-full flex flex-col gap-8 items-center justify-center mt-10">
         {AnimatedPinInformation.map((card, idx) => (

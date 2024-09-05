@@ -11,7 +11,6 @@ const Navbar = () => {
     const newLang = language ? "en" : "fr";
     i18n.changeLanguage(newLang);
   };
-  console.log(i18n.language);
   return (
     <div
       className="flex justify-between items-center py-10 w-full mx-auto lg-max:px-7 text-white z-50 relative bg-black/30 backdrop-blur-lg font-poppins"
