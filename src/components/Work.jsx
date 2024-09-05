@@ -36,7 +36,7 @@ export default function AnimatedPin() {
       title: "Netflix",
       descriptionCard: `${t("netflix-card")}`,
       img: Netflix,
-      link: "https://netflix-react-copy.web.app/",
+      link: "https://netflix-react-copy.firebaseapp.com/",
       description: `${t("netflix-desc")}`,
       languages: ["React", "Firebase", "API", "Tailwind"],
       githubLink: "https://github.com/BorisKalev/Netflix",
