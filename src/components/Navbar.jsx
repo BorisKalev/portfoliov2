@@ -1,7 +1,5 @@
-import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
-import "../animation/animation.css";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Navbar = () => {
   const { i18n } = useTranslation();
 
