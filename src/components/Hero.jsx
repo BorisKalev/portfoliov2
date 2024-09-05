@@ -1,6 +1,6 @@
 import React from "react";
 import { LampContainer } from "./ui/lamp";
-import { MdLocationPin } from "react-icons/md";
+import { CiLocationOn } from "react-icons/ci";
 import { useTranslation } from "react-i18next";
 
 export function Hero() {
@@ -13,7 +13,7 @@ export function Hero() {
             {t("intro")}
           </p>
           <div className="relative top-7 flex justify-center items-center font-bold">
-            <MdLocationPin className="" />
+            <CiLocationOn className="relative bottom-[2px]" />
             <span className="ml-2 bg-gradient-to-br from-slate-100 to-slate-500 bg-clip-text text-center text-3xl font-medium tracking-tight text-transparent">
               {t("location")}
             </span>
