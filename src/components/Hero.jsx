@@ -9,7 +9,7 @@ export function Hero() {
     <>
       <LampContainer className="text-3xl">
         <div className="max-w-2xl text-center font-poppins ">
-          <p className="realtive sm-max:text-2xl bg-gradient-to-br from-slate-100 to-slate-500 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent">
+          <p className="relative sm-max:top-2 sm-max:text-2xl bg-gradient-to-br from-slate-100 to-slate-500 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent">
             {t("intro")}
           </p>
           <div className="relative top-7 flex justify-center items-center font-bold">
