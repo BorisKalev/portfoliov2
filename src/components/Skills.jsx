@@ -12,7 +12,10 @@ import {
   SiCss3,
   SiHtml5,
   SiTypescript,
+  SiMysql,
+  SiBootstrap,
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 const Skills = () => {
   const { t } = useTranslation();
@@ -26,6 +29,9 @@ const Skills = () => {
     { text: "HTML5", Icon: SiHtml5, color: "#e44f25" },
     { text: "C#", Icon: SiCsharp, color: "#67217a" },
     { text: ".Net", Icon: SiDotnet, color: "#512bd4" },
+    { text: "Java", Icon: FaJava, color: "#f89820" },
+    { text: "SQL", Icon: SiMysql, color: "#00758f" },
+    { text: "Bootstrap", Icon: SiBootstrap, color: "#7952b3" },
   ];
 
   return (
