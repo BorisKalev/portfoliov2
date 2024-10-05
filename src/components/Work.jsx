@@ -3,10 +3,16 @@ import { PinContainer } from "./ui/3d-pin";
 import cryptopia from "../assets/cryptopia.png";
 import surfago from "../assets/surfago.png";
 import Netflix from "../assets/Netflix.png";
+import Aspiro from "../assets/Aspiro.png";
 import Title from "./Title";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiFirebase, SiTailwindcss } from "react-icons/si";
+import {
+  SiFirebase,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiFramer,
+} from "react-icons/si";
 import { BiCodeBlock } from "react-icons/bi";
 import { useTranslation } from "react-i18next";
 
@@ -31,6 +37,15 @@ export default function AnimatedPin() {
       description: `${t("surfago-desc")}`,
       languages: ["React", "Node.js", "Tailwind"],
       githubLink: "https://github.com/BorisKalev/surfago-app",
+    },
+    {
+      title: "Aspiro",
+      descriptionCard: `${t("aspiro-card")}`,
+      img: Aspiro,
+      link: "https://aspiro.vercel.app/",
+      description: `${t("aspiro-desc")}`,
+      languages: ["NextJS", "Framer", "Tailwind"],
+      githubLink: "https://github.com/BorisKalev/Netflix",
     },
     {
       title: "Netflix",
@@ -110,6 +125,12 @@ export default function AnimatedPin() {
                     )}
                     {lang === "API" && (
                       <BiCodeBlock className="text-white mr-2" />
+                    )}
+                    {lang === "NextJS" && (
+                      <SiNextdotjs className="text-white mr-2" />
+                    )}
+                    {lang === "Framer" && (
+                      <SiFramer className="text-white mr-2" />
                     )}
                     <p className="text-sm font-medium">{lang}</p>
                   </div>
