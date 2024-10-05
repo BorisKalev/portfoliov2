@@ -45,7 +45,7 @@ export default function AnimatedPin() {
       link: "https://aspiro.vercel.app/",
       description: `${t("aspiro-desc")}`,
       languages: ["NextJS", "Framer", "Tailwind"],
-      githubLink: "https://github.com/BorisKalev/Netflix",
+      githubLink: "https://github.com/BorisKalev/Aspiro",
     },
     {
       title: "Netflix",
