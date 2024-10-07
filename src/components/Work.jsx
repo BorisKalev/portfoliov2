@@ -73,7 +73,6 @@ export default function AnimatedPin() {
               idx % 2 === 0 ? "flex-row" : "flex-row-reverse"
             }`}
           >
-            {/* Pin Container */}
             <PinContainer
               title={card.link}
               href={card.link}
@@ -97,7 +96,6 @@ export default function AnimatedPin() {
               </div>
             </PinContainer>
 
-            {/* Information Section */}
             <div className="flex flex-col items-start text-left text-slate-100 ml-6 md-max:mt-20 md-max:items-center md-max:justify-center md-max:text-center md-max:mx-auto md-max:w-full">
               <h4 className="text-xl font-semibold mx-auto">{card.title}</h4>
               <p className="text-md text-slate-300 mt-5 max-w-[500px] md-max:w-96 sm-max:w-full ">
@@ -110,7 +108,6 @@ export default function AnimatedPin() {
                     key={idx}
                     className="flex items-center px-3 py-1 bg-gradient-to-r from-cyan-500 to-cyan-900 text-white rounded-full shadow-md hover:scale-105 transition-transform duration-200 ease-in-out"
                   >
-                    {/* Optionally add icons */}
                     {lang === "React" && (
                       <FaReact className="text-white mr-2" />
                     )}
