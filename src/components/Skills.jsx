@@ -13,7 +13,7 @@ import {
   SiHtml5,
   SiTypescript,
   SiMysql,
-  SiBootstrap,
+  SiNextdotjs,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
@@ -21,6 +21,7 @@ const Skills = () => {
   const { t } = useTranslation();
   const skills = [
     { text: "React", Icon: SiReact, color: "#57c3dd" },
+    { text: "NextJS", Icon: SiNextdotjs, color: "#FFFFFF" },
     { text: "Node.js", Icon: SiNodedotjs, color: "#80bd00" },
     { text: "Javascript", Icon: SiJavascript, color: "#f7e018" },
     { text: "Typescript", Icon: SiTypescript, color: "#3178c6" },
@@ -31,7 +32,6 @@ const Skills = () => {
     { text: ".Net", Icon: SiDotnet, color: "#512bd4" },
     { text: "Java", Icon: FaJava, color: "#f89820" },
     { text: "SQL", Icon: SiMysql, color: "#00758f" },
-    { text: "Bootstrap", Icon: SiBootstrap, color: "#7952b3" },
   ];
 
   return (
