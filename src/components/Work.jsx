@@ -4,6 +4,7 @@ import cryptopia from "../assets/cryptopia.png";
 import surfago from "../assets/surfago.png";
 import Netflix from "../assets/Netflix.png";
 import Aspiro from "../assets/Aspiro.png";
+import Verbto from "../assets/Verbto.png";
 import Title from "./Title";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
@@ -12,6 +13,7 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiFramer,
+  SiOpenai,
 } from "react-icons/si";
 import { BiCodeBlock } from "react-icons/bi";
 import { useTranslation } from "react-i18next";
@@ -37,6 +39,15 @@ export default function AnimatedPin() {
       description: `${t("surfago-desc")}`,
       languages: ["React", "Node.js", "Tailwind"],
       githubLink: "https://github.com/BorisKalev/surfago-app",
+    },
+    {
+      title: "Verbto",
+      descriptionCard: `${t("aspiro-card")}`,
+      img: Verbto,
+      link: "https://verbto.boriskalev.com/",
+      description: `${t("aspiro-desc")}`,
+      languages: ["NextJS", "WhisperAI", "Tailwind"],
+      githubLink: "https://github.com/BorisKalev/Aspiro",
     },
     {
       title: "Aspiro",
@@ -128,6 +139,9 @@ export default function AnimatedPin() {
                     )}
                     {lang === "Framer" && (
                       <SiFramer className="text-white mr-2" />
+                    )}
+                    {lang === "WhisperAI" && (
+                      <SiOpenai className="text-white mr-2" />
                     )}
                     <p className="text-sm font-medium">{lang}</p>
                   </div>
