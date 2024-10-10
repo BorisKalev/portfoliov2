@@ -14,6 +14,8 @@ import {
   SiNextdotjs,
   SiFramer,
   SiOpenai,
+  SiStripe,
+  SiClerk,
 } from "react-icons/si";
 import { BiCodeBlock } from "react-icons/bi";
 import { useTranslation } from "react-i18next";
@@ -37,7 +39,7 @@ export default function AnimatedPin() {
       img: Verbto,
       link: "https://verbto.boriskalev.com/",
       description: `${t("verbto-desc")}`,
-      languages: ["NextJS", "WhisperAI", "Tailwind"],
+      languages: ["NextJS", "WhisperAI", "Stripe", "Clerk"],
       githubLink: "https://github.com/BorisKalev/Aspiro",
     },
     {
@@ -109,15 +111,15 @@ export default function AnimatedPin() {
 
             <div className="flex flex-col items-start text-left text-slate-100 ml-6 md-max:mt-20 md-max:items-center md-max:justify-center md-max:text-center md-max:mx-auto md-max:w-full">
               <h4 className="text-xl font-semibold mx-auto">{card.title}</h4>
-              <p className="text-md text-slate-300 mt-5 max-w-[500px] md-max:w-96 sm-max:w-full ">
+              <p className="text-md sm-max:px-5 text-slate-300 mt-5 max-w-[500px] md-max:w-96 sm-max:w-full ">
                 {card.description}
               </p>
 
-              <div className="flex flex-wrap gap-3 mx-auto mt-8">
+              <div className="flex flex-wrap md-max:grid md-max:grid-cols-2 gap-3 mx-auto mt-8">
                 {card.languages.map((lang, idx) => (
                   <div
                     key={idx}
-                    className="flex items-center px-3 py-1 bg-gradient-to-r from-cyan-500 to-cyan-900 text-white rounded-full shadow-md hover:scale-105 transition-transform duration-200 ease-in-out"
+                    className="flex items-center justify-center mx-auto px-3 md-max:min-w-[120px] py-1 bg-gradient-to-r from-cyan-500 to-cyan-900 text-white rounded-full shadow-md hover:scale-105 transition-transform duration-200 ease-in-out"
                   >
                     {lang === "React" && (
                       <FaReact className="text-white mr-2" />
@@ -142,6 +144,12 @@ export default function AnimatedPin() {
                     )}
                     {lang === "WhisperAI" && (
                       <SiOpenai className="text-white mr-2" />
+                    )}
+                    {lang === "Stripe" && (
+                      <SiStripe className="text-white mr-2" />
+                    )}
+                    {lang === "Clerk" && (
+                      <SiClerk className="text-white mr-2" />
                     )}
                     <p className="text-sm font-medium">{lang}</p>
                   </div>
