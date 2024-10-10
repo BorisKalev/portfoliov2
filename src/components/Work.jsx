@@ -23,15 +23,6 @@ export default function AnimatedPin() {
 
   const AnimatedPinInformation = [
     {
-      title: "Cryptopia",
-      descriptionCard: `${t("cryptopia-card")}`,
-      img: cryptopia,
-      link: "https://cryptopia.boriskalev.com/",
-      description: `${t("cryptopia-desc")}`,
-      languages: ["React", "Tailwind", "API"],
-      githubLink: "https://github.com/BorisKalev/cryptotopia",
-    },
-    {
       title: "Surfago",
       descriptionCard: `${t("surfago-card")}`,
       img: surfago,
@@ -48,6 +39,15 @@ export default function AnimatedPin() {
       description: `${t("verbto-desc")}`,
       languages: ["NextJS", "WhisperAI", "Tailwind"],
       githubLink: "https://github.com/BorisKalev/Aspiro",
+    },
+    {
+      title: "Cryptopia",
+      descriptionCard: `${t("cryptopia-card")}`,
+      img: cryptopia,
+      link: "https://cryptopia.boriskalev.com/",
+      description: `${t("cryptopia-desc")}`,
+      languages: ["React", "Tailwind", "API"],
+      githubLink: "https://github.com/BorisKalev/cryptotopia",
     },
     {
       title: "Aspiro",
