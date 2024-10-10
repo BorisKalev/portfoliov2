@@ -42,10 +42,10 @@ export default function AnimatedPin() {
     },
     {
       title: "Verbto",
-      descriptionCard: `${t("aspiro-card")}`,
+      descriptionCard: `${t("verbto-card")}`,
       img: Verbto,
       link: "https://verbto.boriskalev.com/",
-      description: `${t("aspiro-desc")}`,
+      description: `${t("verbto-desc")}`,
       languages: ["NextJS", "WhisperAI", "Tailwind"],
       githubLink: "https://github.com/BorisKalev/Aspiro",
     },
