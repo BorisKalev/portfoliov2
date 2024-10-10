@@ -9,12 +9,12 @@ export function Hero() {
     <>
       <LampContainer className="relative text-3xl h-screen">
         <div className="max-w-2xl text-center font-poppins ">
-          <p className="relative 3xl:bottom-16 sm-max:text-2xl bg-gradient-to-br from-slate-100 to-slate-500 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent">
+          <p className="relative 3xl:bottom-16 sm-max:text-2xl bg-gradient-to-t from-[#949494] to-[#ffffff] text-transparent bg-clip-text text-center text-4xl font-medium tracking-tight">
             {t("intro")}
           </p>
           <div className="relative top-7 flex justify-center items-center font-bold">
             <CiLocationOn className="relative 3xl:bottom-12 bottom-[2px]" />
-            <span className="relative 3xl:bottom-12 ml-2 bg-gradient-to-br from-slate-100 to-slate-500 bg-clip-text text-center text-3xl font-medium tracking-tight text-transparent">
+            <span className="relative 3xl:bottom-12 ml-2 bg-gradient-to-t from-[#949494] to-[#ffffff] text-transparent bg-clip-text text-center text-3xl font-medium tracking-tight">
               {t("location")}
             </span>
           </div>
