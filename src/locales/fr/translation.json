@@ -11,6 +11,8 @@
     "netflix-desc": "Un clone de Netflix où les utilisateurs peuvent parcourir différents films, les ajouter à leur liste à regarder absolument et découvrir plus de fonctionnalités dans une interface similaire à celle de Netflix. (email: test@gmail.com, mdp : boblebrick)",
     "aspiro-card": "Aspiro est un site de motivation conçu pour inspirer et engager les utilisateurs.",
     "aspiro-desc": "Aspiro est une page de destination qui met l'accent sur un design époustouflant plutôt que sur la fonctionnalité. Il utilise des animations subtiles mais accrocheuses, animées par Framer Motion, pour créer une expérience utilisateur captivante. La mise en page est propre et minimaliste, axée sur l'esthétique pour transmettre une sensation de motivation et de positivité.",
+    "verbto-card": "Transforming audio into text using AI",
+    "verbto-desc": "Verbto is an innovative platform that transforms audio into text using the power of artificial intelligence (Whisper AI). It integrates a NeonDB database for efficient storage, Clerk for secure user authentication, and Stripe for payment management. Ideal for content creators, students, or anyone who wants to quickly convert their voice recordings to text.",
     "liveDemo": "Démo en direct",
     "skills": "Compétences",
     "rights": "Boris Kalev. Tous droits réservés."
